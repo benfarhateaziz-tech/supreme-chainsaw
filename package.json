@@ -1,0 +1,15 @@
+{
+  "name": "vitara-sync",
+  "version": "1.3.0",
+  "description": "Free personal sync server for the Vitara app — accounts, Gmail/Google & phone sign-in, data roam.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.19.0",
+    "nodemailer": "^6.9.0"
+  },
+  "license": "MIT"
+}
